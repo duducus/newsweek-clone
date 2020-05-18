@@ -45,7 +45,7 @@ sup.degree-sign::before {
 }
 
 .desktop-wrapper {
-  height: 13rem;
+  height: 11.5rem;
 }
 
 ul {
@@ -101,12 +101,15 @@ ul {
 }
 
 .navigation-bar {
-	height: 50px;
+  background-color: white;
+  height: 50px;
 	line-height: 45px;
 	margin: 0;
-	max-width: 90%;
-	padding: 0 0 0 12px;
+	max-width: 94%;
+	padding: 0 0 0 2px;
+  margin-top: 4.2%;
 }
+
 
 .navigation-bar li a {
 	font-weight: 700;
@@ -133,10 +136,100 @@ ul {
 	padding-left: 0;
 }
 
+.heroes_title,
+.featured_stories_container2 a  {
+  color:black;
+  font-weight: bold;
+}
 
+{
+  color:black;
+}
 
+.opinion_containers {
+	font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 10px;
+}
 
+.opinion-article-link {
+	color: #000;
+	display: block;
+	font-weight: 600;
+}
 
+.opinion-article-link:hover {
+	color: #f81d09;
+	text-decoration: none;
+}
+
+.opinion_container_txt a {
+	color: #000;
+	font-weight: 700;
+}
+
+.opinion-author {
+	font-weight: 600;
+}
+
+.byline {
+	margin-top: 0.7rem;
+}
+
+.byline::before {
+	content: "";
+	display: block;
+	background-color: #d9d9d9;
+	height: 1px;
+	width: 100%;
+	margin-bottom: 1px;
+}
+
+.byline::after {
+	content: "";
+	display: block;
+	background-color: #d9d9d9;
+	height: 1px;
+	width: 100%;
+}
+
+.the_debate_author {
+	justify-content: space-between;
+}
+
+.the_debate_author p {
+	font-size: 14px;
+}
+
+.the_debate_author img {
+	height: 63px;
+	width: 63px;
+}
+
+.dot {
+	align-self: center;
+	background-color: #000;
+	border-radius: 50%;
+	color: #FFF;
+	display: inline-block;
+	height: 25px;
+	margin-bottom: 10%;
+	margin-left: 46%;
+	margin-top: 10%;
+	width: 25px;
+}
+
+.red_line_debate {
+	border-top: 4px solid red;
+}
+
+.blue_line_debate {
+	border-top: 4px solid blue;
+}
+
+.dot p {
+	padding-left: 3px;
+	padding-top: 1px;
+}
 
 .footer-links a {
 	border-right: 1px solid #d9d9d9;
@@ -160,6 +253,19 @@ ul {
 	fill: #f72210;
 	height: 36px;
 	width: 236px;
+}
+
+.ad_core_container_img {
+  width: 20%;
+}
+
+.ad_core_text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.signin_btn_ad {
+  max-width: 40%;
 }
 
 .logo-container {

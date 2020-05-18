@@ -20,61 +20,69 @@
 
         <div class="medium-wrapper ">
 
-          <div class="red_banner_medium_top d-flex align-items-center py-2 d-lg-none d-xl-block d-xl-none d-lg-none d-xl-block d-xl-none"> <!---  bar appears in sm & md   --->
-            <div class="mobile_logo_container">
+          <div class="mobile-wrapper d-flex align-items-center
+          d-lg-none d-xl-block d-xl-none d-lg-none d-xl-block d-xl-none"> <!---  bar appears in sm & md   --->
+            <div class="mobile_logo_container col-5">
               <img src="./img/Newsweek_Logo.svg" class="img-fluid" alt="logo"/>
            </div>
-           <div class="weather-dte flex-fill">
-            <ul class="weather-info remove-padding-margin-styl d-flex">
+
+           <div class="location-info flex-fill col-3 d-sm-none d-md-block">
+             <ul class="remove-padding-margin-style d-flex justify-content-center">
                <li class="mr-2 bold-weather-info hide-on-mobile">
-                  <i class="fas fa-cloud"></i>
-               </li>
-               <li class="mr-2 bold-weather-info hide-on-mobile">
-                  18
-                  <sup class="degree-sign"></sup>
-               </li>
-               <li class="bold-weather-info country-weather">
-                  Puebla, MX
-                  <i class="fas fa-chevron-right"></i>
-               </li>
-            </ul>
-           </div>
-           <div class="signin-subscribe flex-fill">
-             <ul class="remove-padding-margin-style d-flex justify-content-end">
+                  <i class="remove-text-decoration fas fa-cloud"></i>
+              </li>
+              <li>
+                 <p class="remove-text-decoration bold-font" href="#">18</p>
+              </li>
+              <li class="ml-3">
+                <p class="remove-text-decoration bold-font" href="#">Puebla City, MX</p>
+              </li>
+             </ul>
+          </div>
+
+           <div class="signin-subscribe flex-fill col-lg-3 col-sm-8">
+             <ul class="remove-padding-margin-style d-flex justify-content-center">
               <li>
                  <a class="remove-text-decoration bold-font sign-in" href="#">SIGN IN</a>
               </li>
               <li class="ml-3">
-                 <a class="remove-text-decoration bold-font subscribe-link" href="#">
+                 <a class=" bold-font subscribe-link" href="#">
                  SUBSCRIBE
                  <i class="fas fa-chevron-right"></i>
                  </a>
               </li>
              </ul>
-            </div>
+          </div>
             <button class="navbar-toggler text-light" type="button" data-toggle="collapse">
             <i class="fas fa-bars"></i>
             </button>
            </div>
 
            <div class="desktop-wrapper d-none d-lg-block d-xl-none d-xl-block">
-               <div class="top-header d-flex align-items-end">
-                  <div class="weather-dte flex-fill pb-3">
-                     <ul class="weather-info remove-padding-margin-styl d-flex ml-5 mb-3">
-                        <li class="mr-2 bold-weather-info">
-                           <i class="fas fa-cloud"></i>
-                        </li>
-                        <li class="mr-2 bold-weather-info">
-                           18
-                           <sup class="degree-sign"></sup>
-                        </li>
-                        <li class="bold-weather-info">
-                           Puebla, MX
-                           <i class="fas fa-chevron-right"></i>
-                        </li>
-                     </ul>
-                     <span class="date-info d-inline-block ml-5">Mon, Apr 27, 2020</span>
+               <div class="top-header d-flex align-items-end col-12">
+
+                 <div class="weather-info d-flex ">
+
+                  <div class="bold-weather-info d-flex flex-column bd-highlight mb-2 pd-5">
+
+                     <div class="location-info1 p-2 bd-highlight">
+                        <i class="fas fa-cloud"></i>
+                          18
+                       <sup class="degree-sign"></sup>
+                          Puebla, MX
+                        <i class="fas fa-chevron-right"></i>
+                     </div>
+
+                     <div class="location-info2 p-2 bd-highlight">
+                       <span class="date-info d-inline-block">Mon, May 12, 2020</span>
+                     </div>
+
                   </div>
+
+                 </div>
+
+
+
                   <div class="center-logo flex-fill logo-container">
                      <img src="./img/Newsweek_Logo.svg" class="img-fluid" alt="logo"/>
                   </div>
@@ -82,10 +90,10 @@
                      <ul
                         class="remove-padding-margin-styl d-flex justify-content-end pr-3 pb-4">
                         <li>
-                           <a class="remove-text-decoration bold-font" href="#">SIGN IN</a>
+                           <a class="remove-text-decoration bold-font remove-text-decpration" href="#">SIGNa IN</a>
                         </li>
                         <li class="ml-3">
-                           <a class="remove-text-decoration bold-font subscribe-link" href="#">
+                           <a class="bold-font subscribe-link" href="#">
                            SUBSCRIBE
                            <i class="fas fa-chevron-right"></i>
                            </a>
@@ -121,7 +129,7 @@
         <div class="container-fluid sixth_section"></div>
         <div class="dropdown-divider"></div>
         <div class="container-fluid subscribe_section"></div>
-        <div class="container-fluid footer_section">
+        <div class="container-fluid footer_section col-12">
           <div class="container-fluid footer">
             <footer class="row col-md-10 offset-md-1">
                <div class="row footer-head">

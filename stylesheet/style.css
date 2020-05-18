@@ -77,6 +77,67 @@ ul {
   background-color: red;
 }
 
+.navigation {
+	border-bottom: solid 2px #f4f5f6;
+}
+
+.navigation li input[type='text'] {
+	border: none;
+	font-weight: lighter;
+	margin-left: 10px;
+	width: 60px;
+}
+
+.navigation ul::before {
+	background-color: #f72210;
+	border-left: 12px solid #FFF;
+	border-top: 13px solid #f72210;
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100px;
+}
+
+.navigation-bar {
+	height: 50px;
+	line-height: 45px;
+	margin: 0;
+	max-width: 90%;
+	padding: 0 0 0 12px;
+}
+
+.navigation-bar li a {
+	font-weight: 700;
+	padding: 3px 0;
+	text-align: center;
+}
+
+.navigation-bar ul {
+	align-content: flex-start;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation-bar li {
+	list-style: none;
+}
+
+.navlink {
+  color: #000;
+}
+
+.navigation .row li a {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
+
+
+
+
 .footer-links a {
 	border-right: 1px solid #d9d9d9;
 	color: #666;

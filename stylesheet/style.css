@@ -136,15 +136,28 @@ ul {
 	padding-left: 0;
 }
 
+.latest_news_container1 {
+	padding-right: 3%;
+}
+
+.ad_core {
+	background-color: #D3D3D3;
+}
+
 .heroes_title,
-.featured_stories_container2 a  {
+.featured_stories_container2 a,
+.culture_and_travel_container a,
+.more_stories_container_text a,
+.top_story_container_text a,
+.the_debate_img a,
+.latest_news_container2 p a,
+.side_story_text a,
+.ad_core_container_3 p,
+.the_debate_text a{
   color:black;
   font-weight: bold;
 }
 
-{
-  color:black;
-}
 
 .opinion_containers {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -172,7 +185,7 @@ ul {
 }
 
 .byline {
-	margin-top: 0.7rem;
+	margin-top: 2.7rem;
 }
 
 .byline::before {
@@ -212,10 +225,11 @@ ul {
 	color: #FFF;
 	display: inline-block;
 	height: 25px;
-	margin-bottom: 10%;
+	margin-bottom: 0%;
 	margin-left: 46%;
-	margin-top: 10%;
+	margin-top: 0%;
 	width: 25px;
+	bottom:12px;
 }
 
 .red_line_debate {
@@ -256,11 +270,12 @@ ul {
 }
 
 .ad_core_container_img {
-  width: 20%;
+	width: 29px;
+	height: 29px;
 }
 
 .ad_core_text {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: bold;
 }
 

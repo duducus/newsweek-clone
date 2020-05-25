@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap);
 body {
-	background-color: #f4f5f6;
+  background-color: #f4f5f6;
 }
 
 footer {
@@ -31,28 +31,26 @@ sup.degree-sign::before {
 }
 
 .mobile_logo_container {
-	height: auto;
-	width: 15rem;
-	max-height: 100%;
+  color: red;
+	max-height: 80%;
 	object-fit: contain;
+  fill: white;
+	height: 36px;
+	width: 236px;
 }
 
 .top-header {
-	background-color: #f81d09;
+	background-color: #f72210;
 	color: #fff;
+  height: 12.5rem;
 }
 
 .desktop-wrapper {
-	height: 11.5rem;
+	height: 13.5rem;
 }
 
 ul {
 	list-style-type: none;
-}
-
-.logo-container {
-	height: auto;
-	width: 100rem;
 }
 
 .subscribe-link {
@@ -62,7 +60,7 @@ ul {
 }
 
 .subscribe-link:hover {
-	background-color: #fff;
+  background-color: #fff;
 	color: #f72210;
 }
 
@@ -72,7 +70,7 @@ ul {
 }
 
 .medium-wrapper {
-	background-color: red;
+	background-color: #f72210;
 }
 
 .navigation {
@@ -94,8 +92,8 @@ ul {
 	display: block;
 	position: absolute;
 	right: 0;
-	top: 0;
-	width: 100px;
+	top:  0;
+	width: 80px;
 }
 
 .navigation-bar {
@@ -105,7 +103,7 @@ ul {
 	margin: 0;
 	max-width: 94%;
 	padding: 0 0 0 2px;
-	margin-top: 4.2%;
+	margin-top: 0%;
 }
 
 .navigation-bar li a {
@@ -197,6 +195,9 @@ ul {
 .opinion_container_txt a {
 	color: #000;
 	font-weight: 700;
+}
+.img_debate_author{
+  width: 100%;
 }
 
 .opinion-author {
@@ -304,11 +305,24 @@ ul {
 }
 
 .logo-container {
-	height: auto;
-	width: 50rem;
+
+  color: red;
+  max-height: 80%;
+  object-fit: contain;
+  fill: white;
+  height: 36px;
+  width: 236px;
 }
 
-..ad_bottom_container {
+.culture_and_travel_container_img {
+  width: 100%;
+}
+
+.featured_stories_container_img {
+  width: 100%;
+}
+
+.ad_bottom_container {
 	background-color: grey;
 }
 
@@ -331,44 +345,44 @@ ul {
 }
 
 .breaker::after {
-	 content: '';
-	 display: block;
-	 height: 18px;
-	 margin-top: 0.5rem;
-	 background-color: #f4f5f7;
-	 border-top: 1px solid #e2e2e2;
+	content: '';
+	display: block;
+	height: 18px;
+	margin-top: 0.5rem;
+	background-color: #f4f5f7;
+	border-top: 1px solid #e2e2e2;
  }
 
  .overlapping-images {
-   position: relative;
-   width: 15rem;
-   height: 15rem;
-   padding: 2px;
-   margin: 0 auto;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  padding: 2px;
+  margin: 0 auto;
  }
 
  .first-absoute-image {
-   position: absolute;
-   top: 0;
-   left: 0;
-   height: 90%;
-   width: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 70%;
  }
 
  .second-absoute-image {
-   position: absolute;
-   top: 9%;
-   left: 29%;
-   height: 90%;
-   width: 70%;
+  position: absolute;
+  top: 9%;
+  left: 29%;
+  height: 90%;
+  width: 70%;
  }
 
  .full-width-height-image {
-   width: 100%;
-   height: 100%;
-   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-   background-size: cover;
-   background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-size: cover;
+  background-position: 100% 100%;
  }
 
  .subscribe-title-text {
